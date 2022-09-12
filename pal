@@ -1,0 +1,19 @@
+import java.util.*;
+public class palindrome {
+
+	public static void main(String[] args) {
+		int n=232,a,s=0,copy=n;
+		while(n>0)
+		{
+			a=n%10;
+			s=s*10+a;
+			n=n/10;
+		}
+		if(copy==s)
+		{
+			System.out.println("Palindrome");
+		}
+
+	}
+
+}
